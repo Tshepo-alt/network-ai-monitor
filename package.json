@@ -4,14 +4,13 @@
   "description": "Network monitoring system",
   "main": "backend/server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "build": "echo \"No build needed\""
+    "start": "node backend/server.js"
   },
   "author": "Tshepo Sekokonyane",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.6",
-    "express": "^5.2.1",
+    "express": "^4.18.2",
     "mysql2": "^3.20.0"
   }
 }
